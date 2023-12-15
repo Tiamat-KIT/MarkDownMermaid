@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mermaid</title>
+</head>
+<body>
+    <h3>Perceptron</h3>
+    <pre class="mermaid">
+        flowchart TD   
+            A[順計算] --> B[逆計算] 
+            B --> C[誤差計算]
+    </pre>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({startOnload: true})
+    </script>
+</body>
+</html>
