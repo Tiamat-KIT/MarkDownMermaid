@@ -11,7 +11,7 @@ function App({Mermaid}) {
   return (
     <div className="App">
       {
-        Mermaid ? <div ref={ref}>
+        Mermaid ? <div ref={ref} className='mermaid'>
         {Mermaid}
         </div> : <div>None...</div>
       }
